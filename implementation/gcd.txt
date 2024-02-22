@@ -1,0 +1,65 @@
+REL_PRIME:
+    // Store n in a saved register
+    LW A0   // n should be in A0 if following calling conventions
+    SW S0
+    // Store m in a saved register
+    LLI 0
+    ADDI 2
+    SW S1   // Set S1 to 2
+LOOP:
+    // Store n in A0
+    LW S0
+    SW A0
+    // Store m in A1
+    LW S1
+    SW A1
+    // Update RA
+    LLI HERE
+    SW RA
+    // Call GCD(n,m)
+    B 0b00 GCD
+HERE:
+    // Increment m
+    LW S1
+    ADDI 1
+    SW S1
+    LW A0
+    CMPI 1
+    // Branch to DONE if the output was 1. Otherwise, branch to LOOP
+    B 0b10 DONE
+    B 0b00 LOOP
+DONE:
+    SO
+
+
+GCD:
+    // Branch to RA if a == 0
+    LW A0
+    CMPI 0
+    B 0b10 RA
+    // Do the loop
+LOOP_GCD:
+    // Compare a to b
+    LW A0
+    CMP A1
+    B 0b11 TRUE
+CHECK:
+    // Check if b != 0
+    LW A1
+    CMPI 0
+    B 0b10 DONE
+    B 0b00 LOOP
+
+TRUE:
+    // a = a - b
+    SUB A1
+    SW A0
+    B 0b00 CHECK
+
+FALSE:
+    LW A1
+    SUB A0
+    B 0b00 CHECK
+
+DONE_GCD:
+    B 0b00 RA

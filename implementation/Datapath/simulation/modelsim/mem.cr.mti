@@ -1,0 +1,182 @@
+{C:/Users/hunterj1/Documents/School/Junior Year/Quarter II/CSSE232/Labs/Workspace/rhit-csse232-2324b-project-amber-2324b-01/rhit-csse232-2324b-project-amber-2324b-01/implementation/Datapath/Stage5.v} {1 {vlog -work work -stats=none {C:/Users/hunterj1/Documents/School/Junior Year/Quarter II/CSSE232/Labs/Workspace/rhit-csse232-2324b-project-amber-2324b-01/rhit-csse232-2324b-project-amber-2324b-01/implementation/Datapath/Stage5.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Stage5
+
+Top level modules:
+	Stage5
+
+} {} {}} {C:/Users/hunterj1/Documents/School/Junior Year/Quarter II/CSSE232/Labs/Workspace/rhit-csse232-2324b-project-amber-2324b-01/rhit-csse232-2324b-project-amber-2324b-01/implementation/Datapath/Register_tb.v} {0 {vlog -work work -stats=none {C:/Users/hunterj1/Documents/School/Junior Year/Quarter II/CSSE232/Labs/Workspace/rhit-csse232-2324b-project-amber-2324b-01/rhit-csse232-2324b-project-amber-2324b-01/implementation/Datapath/Register_tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Register_tb
+** Error: (vlog-13069) C:/Users/hunterj1/Documents/School/Junior Year/Quarter II/CSSE232/Labs/Workspace/rhit-csse232-2324b-project-amber-2324b-01/rhit-csse232-2324b-project-amber-2324b-01/implementation/Datapath/Register_tb.v(24): near "=": syntax error, unexpected '='.
+** Error: (vlog-13069) C:/Users/hunterj1/Documents/School/Junior Year/Quarter II/CSSE232/Labs/Workspace/rhit-csse232-2324b-project-amber-2324b-01/rhit-csse232-2324b-project-amber-2324b-01/implementation/Datapath/Register_tb.v(152): near "end": syntax error, unexpected end.
+
+} {4.0 6.0} {}} {C:/Users/hunterj1/Documents/School/Junior Year/Quarter II/CSSE232/Labs/Workspace/rhit-csse232-2324b-project-amber-2324b-01/rhit-csse232-2324b-project-amber-2324b-01/implementation/Datapath/tb_Datapath.v} {1 {vlog -work work -stats=none {C:/Users/hunterj1/Documents/School/Junior Year/Quarter II/CSSE232/Labs/Workspace/rhit-csse232-2324b-project-amber-2324b-01/rhit-csse232-2324b-project-amber-2324b-01/implementation/Datapath/tb_Datapath.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_Datapath
+
+Top level modules:
+	tb_Datapath
+
+} {} {}} {C:/Users/hunterj1/Documents/School/Junior Year/Quarter II/CSSE232/Labs/Workspace/rhit-csse232-2324b-project-amber-2324b-01/rhit-csse232-2324b-project-amber-2324b-01/implementation/Datapath/tb_memory.v} {1 {vlog -work work -stats=none {C:/Users/hunterj1/Documents/School/Junior Year/Quarter II/CSSE232/Labs/Workspace/rhit-csse232-2324b-project-amber-2324b-01/rhit-csse232-2324b-project-amber-2324b-01/implementation/Datapath/tb_memory.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_memory
+
+Top level modules:
+	tb_memory
+
+} {} {}} {C:/Users/hunterj1/Documents/School/Junior Year/Quarter II/CSSE232/Labs/Workspace/rhit-csse232-2324b-project-amber-2324b-01/rhit-csse232-2324b-project-amber-2324b-01/implementation/Datapath/ImmediateGenerator.v} {1 {vlog -work work -stats=none {C:/Users/hunterj1/Documents/School/Junior Year/Quarter II/CSSE232/Labs/Workspace/rhit-csse232-2324b-project-amber-2324b-01/rhit-csse232-2324b-project-amber-2324b-01/implementation/Datapath/ImmediateGenerator.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ImmediateGenerator
+
+Top level modules:
+	ImmediateGenerator
+
+} {} {}} {C:/Users/hunterj1/Documents/School/Junior Year/Quarter II/CSSE232/Labs/Workspace/rhit-csse232-2324b-project-amber-2324b-01/rhit-csse232-2324b-project-amber-2324b-01/implementation/Datapath/Datapath.v} {1 {vlog -work work -stats=none {C:/Users/hunterj1/Documents/School/Junior Year/Quarter II/CSSE232/Labs/Workspace/rhit-csse232-2324b-project-amber-2324b-01/rhit-csse232-2324b-project-amber-2324b-01/implementation/Datapath/Datapath.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Datapath
+
+Top level modules:
+	Datapath
+
+} {} {}} {C:/Users/hunterj1/Documents/School/Junior Year/Quarter II/CSSE232/Labs/Workspace/rhit-csse232-2324b-project-amber-2324b-01/rhit-csse232-2324b-project-amber-2324b-01/implementation/Datapath/InstructionRegister.v} {1 {vlog -work work -stats=none {C:/Users/hunterj1/Documents/School/Junior Year/Quarter II/CSSE232/Labs/Workspace/rhit-csse232-2324b-project-amber-2324b-01/rhit-csse232-2324b-project-amber-2324b-01/implementation/Datapath/InstructionRegister.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module InstructionRegister
+
+Top level modules:
+	InstructionRegister
+
+} {} {}} {C:/Users/hunterj1/Documents/School/Junior Year/Quarter II/CSSE232/Labs/Workspace/rhit-csse232-2324b-project-amber-2324b-01/rhit-csse232-2324b-project-amber-2324b-01/implementation/Datapath/tb_imm.v} {1 {vlog -work work -stats=none {C:/Users/hunterj1/Documents/School/Junior Year/Quarter II/CSSE232/Labs/Workspace/rhit-csse232-2324b-project-amber-2324b-01/rhit-csse232-2324b-project-amber-2324b-01/implementation/Datapath/tb_imm.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_imm
+
+Top level modules:
+	tb_imm
+
+} {} {}} {C:/Users/hunterj1/Documents/School/Junior Year/Quarter II/CSSE232/Labs/Workspace/rhit-csse232-2324b-project-amber-2324b-01/rhit-csse232-2324b-project-amber-2324b-01/implementation/Datapath/MemWrapper.v} {1 {vlog -work work -stats=none {C:/Users/hunterj1/Documents/School/Junior Year/Quarter II/CSSE232/Labs/Workspace/rhit-csse232-2324b-project-amber-2324b-01/rhit-csse232-2324b-project-amber-2324b-01/implementation/Datapath/MemWrapper.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module MemWrapper
+
+Top level modules:
+	MemWrapper
+
+} {} {}} {C:/Users/hunterj1/Documents/School/Junior Year/Quarter II/CSSE232/Labs/Workspace/rhit-csse232-2324b-project-amber-2324b-01/rhit-csse232-2324b-project-amber-2324b-01/implementation/Datapath/StatusRegister.v} {1 {vlog -work work -stats=none {C:/Users/hunterj1/Documents/School/Junior Year/Quarter II/CSSE232/Labs/Workspace/rhit-csse232-2324b-project-amber-2324b-01/rhit-csse232-2324b-project-amber-2324b-01/implementation/Datapath/StatusRegister.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module StatusRegister
+
+Top level modules:
+	StatusRegister
+
+} {} {}} {C:/Users/hunterj1/Documents/School/Junior Year/Quarter II/CSSE232/Labs/Workspace/rhit-csse232-2324b-project-amber-2324b-01/rhit-csse232-2324b-project-amber-2324b-01/implementation/Datapath/Control.v} {1 {vlog -work work -stats=none {C:/Users/hunterj1/Documents/School/Junior Year/Quarter II/CSSE232/Labs/Workspace/rhit-csse232-2324b-project-amber-2324b-01/rhit-csse232-2324b-project-amber-2324b-01/implementation/Datapath/Control.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Control
+
+Top level modules:
+	Control
+
+} {} {}} {C:/Users/hunterj1/Documents/School/Junior Year/Quarter II/CSSE232/Labs/Workspace/rhit-csse232-2324b-project-amber-2324b-01/rhit-csse232-2324b-project-amber-2324b-01/implementation/Datapath/Memory.v} {1 {vlog -work work -stats=none {C:/Users/hunterj1/Documents/School/Junior Year/Quarter II/CSSE232/Labs/Workspace/rhit-csse232-2324b-project-amber-2324b-01/rhit-csse232-2324b-project-amber-2324b-01/implementation/Datapath/Memory.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Memory
+
+Top level modules:
+	Memory
+
+} {} {}} {C:/Users/hunterj1/Documents/School/Junior Year/Quarter II/CSSE232/Labs/Workspace/rhit-csse232-2324b-project-amber-2324b-01/rhit-csse232-2324b-project-amber-2324b-01/implementation/Datapath/MemoryFile.v} {1 {vlog -work work -stats=none {C:/Users/hunterj1/Documents/School/Junior Year/Quarter II/CSSE232/Labs/Workspace/rhit-csse232-2324b-project-amber-2324b-01/rhit-csse232-2324b-project-amber-2324b-01/implementation/Datapath/MemoryFile.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module MemoryFile
+
+Top level modules:
+	MemoryFile
+
+} {} {}} {C:/Users/hunterj1/Documents/School/Junior Year/Quarter II/CSSE232/Labs/Workspace/rhit-csse232-2324b-project-amber-2324b-01/rhit-csse232-2324b-project-amber-2324b-01/implementation/Datapath/tb_stage1.v} {1 {vlog -work work -stats=none {C:/Users/hunterj1/Documents/School/Junior Year/Quarter II/CSSE232/Labs/Workspace/rhit-csse232-2324b-project-amber-2324b-01/rhit-csse232-2324b-project-amber-2324b-01/implementation/Datapath/tb_stage1.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_stage1
+
+Top level modules:
+	tb_stage1
+
+} {} {}} {C:/Users/hunterj1/Documents/School/Junior Year/Quarter II/CSSE232/Labs/Workspace/rhit-csse232-2324b-project-amber-2324b-01/rhit-csse232-2324b-project-amber-2324b-01/implementation/Datapath/Mux.v} {1 {vlog -work work -stats=none {C:/Users/hunterj1/Documents/School/Junior Year/Quarter II/CSSE232/Labs/Workspace/rhit-csse232-2324b-project-amber-2324b-01/rhit-csse232-2324b-project-amber-2324b-01/implementation/Datapath/Mux.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Mux
+
+Top level modules:
+	Mux
+
+} {} {}} {C:/Users/hunterj1/Documents/School/Junior Year/Quarter II/CSSE232/Labs/Workspace/rhit-csse232-2324b-project-amber-2324b-01/rhit-csse232-2324b-project-amber-2324b-01/implementation/Datapath/tb_stage3.v} {1 {vlog -work work -stats=none {C:/Users/hunterj1/Documents/School/Junior Year/Quarter II/CSSE232/Labs/Workspace/rhit-csse232-2324b-project-amber-2324b-01/rhit-csse232-2324b-project-amber-2324b-01/implementation/Datapath/tb_stage3.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_stage3
+
+Top level modules:
+	tb_stage3
+
+} {} {}} {C:/Users/hunterj1/Documents/School/Junior Year/Quarter II/CSSE232/Labs/Workspace/rhit-csse232-2324b-project-amber-2324b-01/rhit-csse232-2324b-project-amber-2324b-01/implementation/Datapath/tb_stage4.v} {1 {vlog -work work -stats=none {C:/Users/hunterj1/Documents/School/Junior Year/Quarter II/CSSE232/Labs/Workspace/rhit-csse232-2324b-project-amber-2324b-01/rhit-csse232-2324b-project-amber-2324b-01/implementation/Datapath/tb_stage4.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_stage4
+
+Top level modules:
+	tb_stage4
+
+} {} {}} {C:/Users/hunterj1/Documents/School/Junior Year/Quarter II/CSSE232/Labs/Workspace/rhit-csse232-2324b-project-amber-2324b-01/rhit-csse232-2324b-project-amber-2324b-01/implementation/Datapath/Stage1.v} {1 {vlog -work work -stats=none {C:/Users/hunterj1/Documents/School/Junior Year/Quarter II/CSSE232/Labs/Workspace/rhit-csse232-2324b-project-amber-2324b-01/rhit-csse232-2324b-project-amber-2324b-01/implementation/Datapath/Stage1.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Stage1
+
+Top level modules:
+	Stage1
+
+} {} {}} {C:/Users/hunterj1/Documents/School/Junior Year/Quarter II/CSSE232/Labs/Workspace/rhit-csse232-2324b-project-amber-2324b-01/rhit-csse232-2324b-project-amber-2324b-01/implementation/Datapath/Register.v} {1 {vlog -work work -stats=none {C:/Users/hunterj1/Documents/School/Junior Year/Quarter II/CSSE232/Labs/Workspace/rhit-csse232-2324b-project-amber-2324b-01/rhit-csse232-2324b-project-amber-2324b-01/implementation/Datapath/Register.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Register
+
+Top level modules:
+	Register
+
+} {} {}} {C:/Users/hunterj1/Documents/School/Junior Year/Quarter II/CSSE232/Labs/Workspace/rhit-csse232-2324b-project-amber-2324b-01/rhit-csse232-2324b-project-amber-2324b-01/implementation/Datapath/StatusRegister_tb.v} {1 {vlog -work work -stats=none {C:/Users/hunterj1/Documents/School/Junior Year/Quarter II/CSSE232/Labs/Workspace/rhit-csse232-2324b-project-amber-2324b-01/rhit-csse232-2324b-project-amber-2324b-01/implementation/Datapath/StatusRegister_tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module StatusRegister_tb
+
+Top level modules:
+	StatusRegister_tb
+
+} {} {}} {C:/Users/hunterj1/Documents/School/Junior Year/Quarter II/CSSE232/Labs/Workspace/rhit-csse232-2324b-project-amber-2324b-01/rhit-csse232-2324b-project-amber-2324b-01/implementation/Datapath/Stage2.v} {1 {vlog -work work -stats=none {C:/Users/hunterj1/Documents/School/Junior Year/Quarter II/CSSE232/Labs/Workspace/rhit-csse232-2324b-project-amber-2324b-01/rhit-csse232-2324b-project-amber-2324b-01/implementation/Datapath/Stage2.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Stage2
+
+Top level modules:
+	Stage2
+
+} {} {}} {C:/Users/hunterj1/Documents/School/Junior Year/Quarter II/CSSE232/Labs/Workspace/rhit-csse232-2324b-project-amber-2324b-01/rhit-csse232-2324b-project-amber-2324b-01/implementation/Datapath/tb_stage5.v} {1 {vlog -work work -stats=none {C:/Users/hunterj1/Documents/School/Junior Year/Quarter II/CSSE232/Labs/Workspace/rhit-csse232-2324b-project-amber-2324b-01/rhit-csse232-2324b-project-amber-2324b-01/implementation/Datapath/tb_stage5.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_stage5
+
+Top level modules:
+	tb_stage5
+
+} {} {}} {C:/Users/hunterj1/Documents/School/Junior Year/Quarter II/CSSE232/Labs/Workspace/rhit-csse232-2324b-project-amber-2324b-01/rhit-csse232-2324b-project-amber-2324b-01/implementation/Datapath/control_tb.v} {1 {vlog -work work -stats=none {C:/Users/hunterj1/Documents/School/Junior Year/Quarter II/CSSE232/Labs/Workspace/rhit-csse232-2324b-project-amber-2324b-01/rhit-csse232-2324b-project-amber-2324b-01/implementation/Datapath/control_tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module control_tb
+
+Top level modules:
+	control_tb
+
+} {} {}} {C:/Users/hunterj1/Documents/School/Junior Year/Quarter II/CSSE232/Labs/Workspace/rhit-csse232-2324b-project-amber-2324b-01/rhit-csse232-2324b-project-amber-2324b-01/implementation/Datapath/Stage3.v} {1 {vlog -work work -stats=none {C:/Users/hunterj1/Documents/School/Junior Year/Quarter II/CSSE232/Labs/Workspace/rhit-csse232-2324b-project-amber-2324b-01/rhit-csse232-2324b-project-amber-2324b-01/implementation/Datapath/Stage3.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Stage3
+
+Top level modules:
+	Stage3
+
+} {} {}} {C:/Users/hunterj1/Documents/School/Junior Year/Quarter II/CSSE232/Labs/Workspace/rhit-csse232-2324b-project-amber-2324b-01/rhit-csse232-2324b-project-amber-2324b-01/implementation/Datapath/Stage4.v} {1 {vlog -work work -stats=none {C:/Users/hunterj1/Documents/School/Junior Year/Quarter II/CSSE232/Labs/Workspace/rhit-csse232-2324b-project-amber-2324b-01/rhit-csse232-2324b-project-amber-2324b-01/implementation/Datapath/Stage4.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Stage4
+
+Top level modules:
+	Stage4
+
+} {} {}} {C:/Users/hunterj1/Documents/School/Junior Year/Quarter II/CSSE232/Labs/Workspace/rhit-csse232-2324b-project-amber-2324b-01/rhit-csse232-2324b-project-amber-2324b-01/implementation/Datapath/PC_module.v} {1 {vlog -work work -stats=none {C:/Users/hunterj1/Documents/School/Junior Year/Quarter II/CSSE232/Labs/Workspace/rhit-csse232-2324b-project-amber-2324b-01/rhit-csse232-2324b-project-amber-2324b-01/implementation/Datapath/PC_module.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module PC_module
+
+Top level modules:
+	PC_module
+
+} {} {}}

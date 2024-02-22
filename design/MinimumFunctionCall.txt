@@ -1,0 +1,59 @@
+MAIN:
+    // Create a saved and temp variable
+    LLI 32
+    SW S0
+    LLI 10
+    SW T0
+    // Back up T0 by:
+    // 1. Load SP into Reggie
+    // 2. Decrement Reggie by 2
+    // 3. Store Reggie back into SP
+    // 4. Load T0 into Reggie
+    // 5. Store Reggie into the memory location where SP points
+    LW SP
+    ADDI -2
+    SW SP
+    LW T0
+    SMEM SP
+    // Store the return address into RA
+    LLI HERE_AFTER_CALL
+    SW RA
+    B 0b00 DO_SOMETHING
+    HERE_AFTER_CALL:
+    // Restore T0 by:
+    // 1. Load the item in memory that SP is pointing to into Reggie
+    // 2. Storing Reggie into T0
+    // 3. Loading SP into Reggie
+    // 4. Incrementing Reggie by 2
+    // 5. Storing Reggie back into SP
+    LMEM SP
+    SW T0
+    LW SP
+    ADDI 2
+    SW SP
+    LW S0
+    // Output
+    SO
+
+DO_SOMETHING:
+    // Back up the saved variable
+    LW SP
+    ADDI -2
+    SW SP
+    LW S0
+    SMEM SP
+    // Do whatever the function is supposed to do
+    // (this overwrites S0 and T0)
+    LLI 64
+    SW S0
+    LLI 128
+    SW T0
+    // Replace the backed up variable
+    LMEM SP
+    SW S0
+    LW SP
+    ADDI 2
+    SW SP
+    // Branch back to caller
+    LW RA
+    BMEM RA
